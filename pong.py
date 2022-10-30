@@ -2,7 +2,7 @@ import turtle
 import time
 
 wn = turtle.Screen()
-wn.title("")
+wn.title("ping pong game")
 wn.bgcolor("black")
 wn.setup(width=800, height=600)
 
