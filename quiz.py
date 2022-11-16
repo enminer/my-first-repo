@@ -45,7 +45,7 @@ if ans.lower() == 'yes':
         print('Incorrect')       
 
 
-    ans = input('6. Who is my favorite viedeo game character ')
+    ans = input('6. Who is my favorite video game character ')
     if ans.lower() == 'kaine':
         score += 1
         print('Correct')
@@ -53,17 +53,17 @@ if ans.lower() == 'yes':
         print('Incorrect')       
     
 
-ans = input('7. what computer do I use? ')
-if ans.lower() == 'pc':
+    ans = input('7. what computer do I use? ')
+    if ans.lower() == 'pc':
         score += 1
         print('Correct')
-else:
+    else:
         print('Incorrect')
 
 
 print('Thank you for playing, you got ', score, " questions correct.")
 percentage = (score/total_q) * 100
 
-print('Score ', percentage)
+print('Score ', str(percentage)) 
 print('Goodbye')
-    
+quit()    
